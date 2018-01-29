@@ -6,12 +6,12 @@
 
 namespace Example\Controller;
 
-use Common\Controller\Base;
+use Common\Controller\AdminBase;
 
 /**
  * 拼音样例
  */
-class PinyinController extends Base {
+class PinyinController extends AdminBase {
 
     function test(){
         $chinese = '你好';
