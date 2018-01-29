@@ -37,7 +37,7 @@ class RandomController extends AdminBase {
      */
     function genRandomString($len = 6) {
         $chars = array(
-            "1", "2", "3", "4", "5", "6", "7", "8", "9",
+            "0","1", "2", "3", "4", "5", "6", "7", "8", "9",
         );
         $charsLen = count($chars) - 1;
         // 将数组打乱
